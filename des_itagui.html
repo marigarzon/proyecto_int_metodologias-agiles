@@ -24,6 +24,10 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!--Boostrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -136,54 +140,160 @@
         </div>
     </div>
 
-     <!-- destinos -->
+     <!-- Start destinos -->
      <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Destinos</h6>
                 <h1>Explora Nuestros Destinos</h1>
             </div>
-    <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="destination-item position-relative overflow-hidden mb-2">
-                <img class="img-fluid" src="img/CasaMuseo_Ditaires.jpg" alt="">
-                <a class="destination-overlay text-white text-decoration-none" href="">
-                    <h5 class="text-white">Casa museo ditaires</h5>
-                    <span>Itagüi</span>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="destination-item position-relative overflow-hidden mb-2">
-                <img class="img-fluid" src="img/acuaparque-ditaires1.jpg" alt="">
-                <a class="destination-overlay text-white text-decoration-none" href="">
-                    <h5 class="text-white">Acuaparque de ditaires</h5>
-                     <span>Itagüi</span> 
-                </a>
-            </div>
-            </div>
+            <div class="row">
+                <!-- imagen museo Ditaires -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/CasaMuseo_Ditaires.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="#" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            <h5 class="text-white">Casa museo Ditaires</h5>
+                            <span>Itagüi</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Modal museo Ditaires-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Casa Museo Ditaires</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi doloribus error hic cum
+                                assumenda esse totam, et deleniti quae quidem eveniet, dolore recusandae quasi ea
+                                laudantium accusamus. Alias, officiis esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iusto optio similique saepe debitis sapiente harum dolor! Totam eius, quis voluptate doloremque velit ipsum incidunt fugiat a expedita est praesentium, tempora odit? Illo quidem impedit dignissimos iure architecto inventore cum esse vitae dolorem quam tenetur, sint consequatur reiciendis, id ipsam modi qui aut earum iusto! Laborum quo eligendi tempora! Autem laboriosam nostrum repudiandae numquam impedit quasi, accusantium suscipit rerum dolor quos incidunt debitis repellendus labore nam nesciunt ipsam dolore eveniet earum quo aut velit error accusamus commodi obcaecati! Ea ducimus iure odio ut quam. Sequi laboriosam labore vero debitis Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus et a, itaque quo cumque ipsa fugiat, aliquid nostrum error dicta autem sunt soluta qui, amet nihil. Tenetur esse fugit minus placeat quis? Esse laboriosam ipsa delectus mollitia nostrum incidunt beatae pariatur quasi eius rem commodi, error dolores, veniam eaque quae voluptatem? Qui vero nemo esse quia, atque odio, sunt veritatis voluptate, at nostrum quisquam eos tenetur a. Eligendi illo est iure possimus exercitationem tenetur omnis ex voluptate consectetur, deserunt vitae voluptatibus eum magni maiores ducimus maxime in asperiores placeat vero quaerat harum sed expedita impedit. Aut quisquam atque suscipit, unde, eligendi impedit non esse repellendus quae cum aliquam nemo omnis, ipsum ut inventore hic molestiae porro quia. Quo est iusto quaerat eligendi minus blanditiis eius necessitatibus eveniet dolor ratione, dolores sunt illo, incidunt quod id corporis quibusdam reprehenderit. Temporibus, debitis! Culpa, nesciunt consequatur, natus quam magnam dicta est nam illo blanditiis rem dolor ratione accusamus provident dolorem tempora laborum alias dolore odit soluta officia ad, error repellendus modi. Impedit quasi explicabo tempora! Veritatis necessitatibus accusamus ab reiciendis quisquam, sapiente alias voluptate eligendi recusandae, quia, beatae quo quas vel natus deserunt! Ducimus impedit praesentium quaerat dolorem dolores delectus, nostrum placeat sapiente!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- imagen Acuap Ditaires -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/acuaparque-ditaires1.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="#" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1">
+                            <h5 class="text-white">Acuaparque de Ditaires</h5>
+                            <span>Itagüi</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Modal Acupar Dita -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Acuaparque de Ditaires</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi doloribus error hic cum
+                                assumenda esse totam, et deleniti quae quidem eveniet, dolore recusandae quasi ea
+                                laudantium accusamus. Alias, officiis esse!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- imagen Parq Obr -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
                         <img class="img-fluid" src="img/parque_obrero.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Parque Obrero</h5>
-                             <span>Itagüi</span>
+                        <a class="destination-overlay text-white text-decoration-none" href="#" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal2">
+                            <h5 class="text-white">Acuaparque de Ditaires</h5>
+                            <span>Itagüi</span>
                         </a>
                     </div>
                 </div>
+
+                <!-- Modal Parq Obr-->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel2">Parque Obrero</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi doloribus error hic cum
+                                assumenda esse totam, et deleniti quae quidem eveniet, dolore recusandae quasi ea
+                                laudantium accusamus. Alias, officiis esse!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- imagen Pico manzanill -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
                         <img class="img-fluid" src="img/pico_manzanillo.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Pico manzanillo</h5>
-                             <span>Itagüi</span>
+                        <a class="destination-overlay text-white text-decoration-none" href="#" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal3">
+                            <h5 class="text-white">Pico Manzanillo</h5>
+                            <span>Itagüi</span>
                         </a>
                     </div>
                 </div>
+
+                <!-- Modal Pico Manza-->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel3">Pico Manzanillo</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi doloribus error hic cum
+                                assumenda esse totam, et deleniti quae quidem eveniet, dolore recusandae quasi ea
+                                laudantium accusamus. Alias, officiis esse!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
-</div>
-</div>
+    </div>
+    <!-- End destinos -->
 
      <!-- Footer Start -->
      <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
@@ -270,6 +380,11 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+     <!-- Script Boostrap -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+     crossorigin="anonymous"></script>
 </body>
 
 </html>
